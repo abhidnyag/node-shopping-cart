@@ -1,0 +1,20 @@
+{{# each products }}
+ <div class="row">
+   {{# each this }}
+<div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="{{ this.imagePath }}" alt="..." class="image-responsive">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ratione similique dicta a quisquam fuga reiciendis repudiandae corrupti non atque quasi, minus modi rerum inventore animi odit iste rem veniam.</p>
+        <div class="clearfix">
+            <div class="price pull-left">$1115.96</div>
+            <a href="#" class="btn btn-success pull-right" role="button">Button</a>
+          </div>
+      </div>
+    </div>
+  </div>
+   {{/each}}
+  
+  </div>
+{{/each}}
